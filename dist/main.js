@@ -1,0 +1,1 @@
+(()=>{const i=i=>console.log(`Hi ${i}`);i("Vidhi Srivastava"),i("Vidhi"),i("Moto")})();
