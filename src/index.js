@@ -6,3 +6,5 @@ addTitle('Hello, World')
 bodyStyle();
 const nonPremium = getNonPremium(users)
 console.log(users, nonPremium)
+
+console.log('Test')
