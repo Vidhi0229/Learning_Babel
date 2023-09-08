@@ -1,3 +1,8 @@
 import { bodyStyle, addTitle } from "./dom";
- addTitle('Hello, World')
- bodyStyle();
+import users, {getNonPremium} from "./data";
+
+
+addTitle('Hello, World')
+bodyStyle();
+const nonPremium = getNonPremium(users)
+console.log(users, nonPremium)

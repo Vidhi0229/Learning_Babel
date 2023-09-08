@@ -1,1 +1,1 @@
-(()=>{"use strict";const e=document.querySelector("body");(t=>{const o=document.createElement("h1");o.textContent="Hello, World",e.appendChild(o)})(),e.style.background="peachpuff"})();
+(()=>{"use strict";const e=document.querySelector("body"),t=[{name:"vidhi",premium:!0},{name:"Rohan",premium:!1}];(t=>{const o=document.createElement("h1");o.textContent="Hello, World",e.appendChild(o)})(),e.style.background="peachpuff";const o=(e=>e.filter((e=>e.premium)))(t);console.log(t,o)})();
