@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "node_modules/.bin/babel src/index.js -o dis/asset/bundle.js"
+    "babel": "node_modules/.bin/babel src/index.js -w -o dis/asset/bundle.js"
   },
   "repository": {
     "type": "git",
