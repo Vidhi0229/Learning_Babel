@@ -1,5 +1,3 @@
-const greet = (name) => console.log(`Hi ${name}`);
-
-greet("Vidhi Srivastava")
-greet("Vidhi")
-greet("Moto")
+import { bodyStyle, addTitle } from "./dom";
+ addTitle('Hello, World')
+ bodyStyle();
